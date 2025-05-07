@@ -84,7 +84,7 @@ MonoBehaviour:
   m_Active: 1
   settings:
     executionOrder: 0
-    alwaysEnable: 0
+    alwaysEnable: 1
     cameraTypes: 5
 --- !u!114 &7833122117494664109
 MonoBehaviour:

@@ -41,7 +41,6 @@ MonoBehaviour:
   m_Name: PP Profile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 7386429388729694006}
   - {fileID: 5363669671454680858}
   - {fileID: -808206502261076655}
   - {fileID: 794341493317504260}
@@ -187,13 +186,13 @@ MonoBehaviour:
     dimension: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0.591
+    m_Value: 0.688
   luminanceThreshold:
     m_OverrideState: 1
-    m_Value: 0.183
+    m_Value: 0.508
   tiling:
     m_OverrideState: 1
-    m_Value: 0.573
+    m_Value: 0.9
   shader: {fileID: 4800000, guid: 9dfd4d129fd660d43a2fb5c40d119ca4, type: 3}
 --- !u!114 &7386429388729694006
 MonoBehaviour:
