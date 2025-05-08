@@ -75,7 +75,7 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.188
+    m_Value: 0.194
   response:
     m_OverrideState: 1
     m_Value: 0.085
@@ -107,13 +107,13 @@ MonoBehaviour:
     m_Value: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0.125
+    m_Value: 0.137
   brightness:
     m_OverrideState: 1
     m_Value: {x: 0, y: 0.9999999}
   tiling:
     m_OverrideState: 1
-    m_Value: 21.79
+    m_Value: 25
   shader: {fileID: 4800000, guid: 5223e72bff90cca4ea18dd3ed23f3062, type: 3}
 --- !u!114 &-4553458054645771442
 MonoBehaviour:
@@ -133,7 +133,7 @@ MonoBehaviour:
     m_Value: 0
   amount:
     m_OverrideState: 1
-    m_Value: 0.744
+    m_Value: 0.464
   radius:
     m_OverrideState: 1
     m_Value: 0.28
@@ -156,7 +156,7 @@ MonoBehaviour:
   active: 1
   distance:
     m_OverrideState: 1
-    m_Value: 221
+    m_Value: 40
   baseHeight:
     m_OverrideState: 1
     m_Value: 0
@@ -346,7 +346,7 @@ MonoBehaviour:
     m_Value: 0.9
   intensity:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 9.14
   scatter:
     m_OverrideState: 1
     m_Value: 0.659
@@ -445,10 +445,10 @@ MonoBehaviour:
     m_Value: 2.4
   falloff:
     m_OverrideState: 1
-    m_Value: 0.984
+    m_Value: 0.825
   length:
     m_OverrideState: 1
-    m_Value: 0.08
+    m_Value: 0.48
   noiseStrength:
     m_OverrideState: 0
     m_Value: 0
@@ -471,7 +471,7 @@ MonoBehaviour:
     m_Value: 0
   radius:
     m_OverrideState: 1
-    m_Value: 4
+    m_Value: 1
   startFadeDistance:
     m_OverrideState: 0
     m_Value: 100
