@@ -876,6 +876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7514c8ddbbbb08d4aa3125d29c30b9a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsOpen: 0
   openFromInteraction: {fileID: 1527036436}
 --- !u!1 &1644962207 stripped
 GameObject:
