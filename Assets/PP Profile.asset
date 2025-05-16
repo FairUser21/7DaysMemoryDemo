@@ -227,6 +227,35 @@ MonoBehaviour:
   tint:
     m_OverrideState: 1
     m_Value: 0
+--- !u!114 &-1374352030458173724
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dfc0ecd934e74246bcf9791abe617b0, type: 3}
+  m_Name: Pixelize
+  m_EditorClassIdentifier: 
+  active: 0
+  amount:
+    m_OverrideState: 1
+    m_Value: 0.497
+  resolution:
+    m_OverrideState: 1
+    m_Value: 240
+  resolutionPreset:
+    m_OverrideState: 1
+    m_Value: 200
+  preserveAspectRatio:
+    m_OverrideState: 1
+    m_Value: 1
+  centerPixel:
+    m_OverrideState: 1
+    m_Value: 1
+  shader: {fileID: 4800000, guid: 418afc1867615f1408a4c6de9d799560, type: 3}
 --- !u!114 &-808206502261076655
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -245,7 +274,7 @@ MonoBehaviour:
     m_Value: 0.5
   contrast:
     m_OverrideState: 1
-    m_Value: -6
+    m_Value: 15
   colorFilter:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -254,7 +283,7 @@ MonoBehaviour:
     m_Value: 0
   saturation:
     m_OverrideState: 1
-    m_Value: -5
+    m_Value: 17
 --- !u!114 &-466382822436948134
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -300,6 +329,7 @@ MonoBehaviour:
   - {fileID: -9141192794646843644}
   - {fileID: -4553458054645771442}
   - {fileID: -7275759093663365642}
+  - {fileID: -1374352030458173724}
 --- !u!114 &646473004773815736
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -387,13 +417,13 @@ MonoBehaviour:
   active: 1
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 0.9295662, y: 0.93779844, z: 1, w: 0.06358863}
+    m_Value: {x: 0.88863295, y: 0.8894649, z: 1, w: 0.06358863}
   midtones:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: -0.0000000011417096}
+    m_Value: {x: 1, y: 1, z: 1, w: -0.16623376}
   highlights:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.9826695, z: 0.6878462, w: 0.002155816}
+    m_Value: {x: 1, y: 0.9826695, z: 0.6878462, w: 0.2826753}
   shadowsStart:
     m_OverrideState: 0
     m_Value: 0
@@ -494,7 +524,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 1
   neutralHDRRangeReductionMode:
     m_OverrideState: 0
     m_Value: 2
