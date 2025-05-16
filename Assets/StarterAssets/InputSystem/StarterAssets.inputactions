@@ -44,7 +44,7 @@
                 {
                     "name": "Use",
                     "type": "Button",
-                    "id": "b606c804-7b81-453d-a7bc-0d62b4b39d37",
+                    "id": "0d9310dd-2843-44d9-83ec-e9dee258d695",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -230,7 +230,7 @@
                 },
                 {
                     "name": "",
-                    "id": "23c43fdb-ddab-440a-a65c-02c5bb55735c",
+                    "id": "e3e267d9-324c-48a4-a149-0e0792d5b949",
                     "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",

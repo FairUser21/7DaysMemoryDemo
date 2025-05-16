@@ -53,6 +53,8 @@ public class Door : MonoBehaviour
                 AnimationCoroutine = StartCoroutine(DoSlidingOpen()); 
             }
         }
+
+
     }
 
     private IEnumerator DoRotationOpen(float ForwardAmount)
