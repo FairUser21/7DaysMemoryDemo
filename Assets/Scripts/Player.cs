@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DialogueEditor;
 
 public class Player : MonoBehaviour
 {
@@ -9,6 +10,21 @@ public class Player : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E)) PlayerInteract();
+        if (ConversationManager.Instance != null && ConversationManager.Instance.IsConversationActive)
+        {
+            if (Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                ConversationManager.Instance.SelectNextOption();
+            }
+            if (Input.GetKeyDown(KeyCode.DownArrow))
+            {
+                ConversationManager.Instance.SelectPreviousOption();
+            }
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                ConversationManager.Instance.PressSelectedOption();
+            }
+        }
     }
 
     public void PlayerInteract()
@@ -26,4 +42,7 @@ public class Player : MonoBehaviour
             if (interactScript) interactScript.CallInteract(this);
         }
     }
+
+
+    
 }
